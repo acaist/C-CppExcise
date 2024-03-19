@@ -1,0 +1,8 @@
+#ignore all file
+*
+
+#can not ignore
+!*.cpp
+!*.c
+!README.md
+!.gitignore

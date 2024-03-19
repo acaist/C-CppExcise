@@ -16,10 +16,10 @@ int main()
 	table.emplace("vi",veci);
 	cout<< "vector[2] = "<<(table.find("vi")->second)[2]<<endl;
 	
-	table.emplace("vi emplace",veci2);
+	table.emplace("vi emplace",veci2);//do not overwrite
 	cout<< "vector[2] = "<<(table.find("vi")->second)[2]<<endl;
 
-    table["vi"] = veci3;
+    table["vi"] = veci3;//overwrite
 	cout<< "vector[2] = "<<(table.find("vi")->second)[2] <<endl;
 	
    return 0;
