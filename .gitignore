@@ -4,5 +4,6 @@
 #can not ignore
 !*.cpp
 !*.c
+!*.py
 !README.md
 !.gitignore
